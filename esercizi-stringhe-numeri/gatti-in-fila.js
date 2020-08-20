@@ -17,3 +17,11 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var cats = 44;
+var catsOnRow = 6;
+
+var rows = Math.ceil(cats/catsOnRow);
+console.log(rows);
+var missing = catsOnRow*rows-cats;
+console.log(missing);
