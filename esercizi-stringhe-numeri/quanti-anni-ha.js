@@ -11,3 +11,13 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var annoCorr = 2020;
+var annoNascita = 1954;
+
+
+var eta = (annoCorr-annoNascita);
+
+var anniManc = 100-eta;
+
+console.log('Se sono nato nel '+ annoNascita + ' e siamo nel '+annoCorr + ' quest\'\anno compio ' +eta + ' anni e me ne mancano ' +anniManc +' per arrivare a 100' );
