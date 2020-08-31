@@ -16,3 +16,11 @@
     
   http://www.imparareaprogrammare.it
 */
+
+function banale(arg1,arg2)
+{
+  if(arg1===arg2){console.log('TRUE')}
+  else {console.log('FALSE')}
+}
+
+banale(2,'2');
